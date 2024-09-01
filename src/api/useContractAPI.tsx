@@ -26,7 +26,7 @@ function useContractAPI(props: ContractApiProps): ContractApiOut {
     const [data, setData] = useState<ContractApiResponse | null>(null);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
-    const baseURL = 'http://43.202.147.65:8000';
+    const baseURL = 'https://43.202.147.65:8000';
     const endPoint = '/brands/contract/';
 
     useEffect(() => {

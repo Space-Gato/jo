@@ -32,7 +32,7 @@ function useSearchAPI(props: SearchApiProps): SearchApiOut {
     const [data, setData] = useState<SearchApiResponse | null>(null);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
-    const baseURL = 'http://43.202.147.65:8000';
+    const baseURL = 'https://43.202.147.65:8000';
     const endPoint = '/search';
 
     useEffect(() => {
